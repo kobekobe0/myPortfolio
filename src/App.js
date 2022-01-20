@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Home from './components/home/Home'
+import Nav from './components/nav/Nav'
+import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Projects from './components/projects/Projects'
+import ProjectPage from './components/projects/ProjectPage'
+import { useLocation } from 'react-router-dom'
+import Gallery from './components/gallery/Gallery'
+import About from './components/about/About'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const location = useLocation()
+    console.log(location.pathname)
+    const [openProject, setOpenProject] = useState('')
+    return (
+        <div className="App">
+            {location.pathname.includes('/Projects') && (
+                <h2 className="headers" style={{ color: 'black' }}>
+                    Projects
+                </h2>
+            )}
+            {location.pathname.includes('/Projects/') && (
+                <h2 className="headers" style={{ color: 'white' }}>
+                    Projects
+                </h2>
+            )}
+            {location.pathname.includes('/Gallery') && (
+                <h2 className="headers" style={{ color: 'white' }}>
+                    Gallery
+                </h2>
+            )}
+            {location.pathname.includes('/About') && (
+                <h2 className="headers" style={{ color: 'black' }}>
+                    About
+                </h2>
+            )}
+            <Nav />
+
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route
+                    path="/Projects"
+                    element={<Projects setOpenProject={setOpenProject} />}
+                />
+                <Route
+                    path="/Projects/:id"
+                    element={<ProjectPage openProject={openProject} />}
+                />
+                <Route path="/Gallery" element={<Gallery />} />
+                <Route path="/About" element={<About />} />
+            </Routes>
+        </div>
+    )
 }
 
-export default App;
+export default App

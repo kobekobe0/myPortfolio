@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: start;
+    background-color: #090720;
+}
+.three-dots {
+    display: flex;
+}
+.three-dots .home-dot {
+    padding-left: 0.6em;
+    margin-bottom: 3em;
+}
+.home .sub {
+    background-color: rgb(16, 22, 41);
+    padding: 4rem;
+    border-radius: 5%;
+    transition: all ease 0.2s;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.home img {
+    min-width: 15rem;
+    min-height: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+    border-radius: 50%;
+    margin: 0;
+    justify-self: center;
+}
+
+.home h1 {
+    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+.home h2 {
+    font-size: 1.8rem;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
