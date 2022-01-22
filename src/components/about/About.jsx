@@ -39,33 +39,20 @@ function About() {
                     <div className="introduction">
                         <h2>Hello,</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Odio asperiores itaque nostrum animi
-                            voluptatum quas excepturi dignissimos sapiente, fuga
-                            assumenda. Nobis a eaque aspernatur labore fuga
-                            consectetur delectus corrupti, iure quaerat
-                            explicabo esse ducimus nulla alias quisquam ipsam
-                            libero laboriosam blanditiis culpa obcaecati nisi
-                            illo ullam? Delectus alias vero consectetur. Eaque
-                            tenetur mollitia fuga error ad accusamus temporibus
-                            nam, perspiciatis earum hic aperiam distinctio illum
-                            ab explicabo? Quia, eaque voluptatem natus dicta
-                            autem reprehenderit sit molestiae laborum sequi,
-                            voluptatum ipsa animi dolore vitae quis a! Dicta
-                            dolor aliquam laboriosam rem tempore ipsum
-                            praesentium vitae dolorem quisquam iure ipsa quos
-                            nostrum unde consequuntur doloribus itaque ad,
-                            aliquid ducimus impedit cum nihil deleniti ipsam in
-                            ut! Corrupti esse veritatis soluta quod rem!
+                            Kobe Brian Santos, 18 years old, a college student
+                            based in the Philippines. I'm an aspiring web
+                            developer and a self-taught programmer. I'm
+                            currently learning how to code using React.js and
+                            planning to pickup Python(Django) next for backend
+                            development or just go with Node.js.
                             <br />
                             <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Omnis eum cumque distinctio amet molestias nam
-                            nostrum, a modi tenetur nisi quo facere et ex atque
-                            nesciunt, aliquid, neque magni. Enim quis, odit
-                            magni repellat alias porro sint, pariatur ducimus
-                            culpa ad nostrum, voluptatum consectetur itaque
-                            adipisci dicta dolorem ipsam blanditiis!
+                            The thing I love most about coding is that there’s
+                            always something new to learn so it’s impossible to
+                            get bored. There’s so many ways to be creative and
+                            so many different problems to solve and I thrive on
+                            the challenge. I am currently looking for frontend
+                            or backend web development internships.
                         </p>
                     </div>
 
@@ -122,6 +109,7 @@ function About() {
                             <div className="interest-card-wrapper">
                                 <ScrollAnimation
                                     animateIn="fadeInLeft"
+                                    animateOnce
                                     duration={0.5}
                                     className="interests-card"
                                 >
@@ -129,162 +117,94 @@ function About() {
                                     <div>
                                         <h4>Technology</h4>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
+                                            Aiming to contribute in someway in
+                                            this
+                                            <br /> field.
                                         </p>
                                     </div>
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     animateIn="fadeInRight"
                                     duration={0.5}
+                                    animateOnce
                                     className="interests-card"
                                 >
                                     <img src={watching} alt="" />
                                     <div>
                                         <h4>Watching Shows</h4>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
+                                            A great way to waste your time.{' '}
+                                            Especially <br /> anime.
                                         </p>
                                     </div>
                                 </ScrollAnimation>
-                                <ScrollAnimation
-                                    animateIn="fadeInLeft"
-                                    duration={0.5}
-                                    className="interests-card"
-                                >
-                                    <img src={workout} alt="" />
-                                    <div>
-                                        <h4>Working Out</h4>
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
-                                        </p>
-                                    </div>
-                                </ScrollAnimation>
+
                                 <ScrollAnimation
                                     animateIn="fadeInRight"
                                     duration={0.5}
+                                    animateOnce
                                     className="interests-card"
                                 >
                                     <img src={food} alt="" />
                                     <div>
                                         <h4>Food</h4>
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
-                                        </p>
+                                        <p>I mean, who doesn't?</p>
                                     </div>
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     animateIn="fadeInLeft"
                                     duration={0.5}
+                                    animateOnce
                                     className="interests-card"
                                 >
                                     <img src={invest} alt="" />
                                     <div>
                                         <h4>Personal Finance</h4>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
+                                            Planning is meh, but it is needed.
                                         </p>
                                     </div>
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     animateIn="fadeInRight"
                                     duration={0.5}
+                                    animateOnce
                                     className="interests-card"
                                 >
                                     <img src={staring} alt="" />
                                     <div>
                                         <h4>Starry Sky</h4>
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
-                                        </p>
+                                        <p>Relaxation at its finest.</p>
                                     </div>
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     animateIn="fadeInLeft"
                                     duration={0.5}
+                                    animateOnce
                                     className="interests-card"
                                 >
                                     <img src={adventure} alt="" />
                                     <div>
                                         <h4>Adventures</h4>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Aut
-                                            atque sit sunt! Corporis, explicabo
-                                            commodi iste fuga ab, voluptate quam
-                                            aspernatur neque repudiandae unde
-                                            inventore tenetur tempora ad nostrum
-                                            architecto doloremque, sint nobis
-                                            reprehenderit at. Repudiandae, ea
-                                            quis corrupti totam repellat
-                                            molestias, veniam reiciendis
-                                            praesentium accusantium itaque quos
-                                            culpa ut.
+                                            Don't wanna die just stuck where I
+                                            am.
+                                        </p>
+                                    </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    animateIn="fadeInLeft"
+                                    duration={0.5}
+                                    animateOnce
+                                    className="interests-card"
+                                >
+                                    <img src={workout} alt="" />
+                                    <div>
+                                        <h4>Working Out</h4>
+                                        <p>
+                                            More like forced by my inner self.
+                                            <br />
+                                            But being toned is great.
                                         </p>
                                     </div>
                                 </ScrollAnimation>

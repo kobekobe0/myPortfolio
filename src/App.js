@@ -7,6 +7,8 @@ import ProjectPage from './components/projects/ProjectPage'
 import { useLocation } from 'react-router-dom'
 import Gallery from './components/gallery/Gallery'
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
+
 function App() {
     const location = useLocation()
     console.log(location.pathname)
@@ -23,9 +25,9 @@ function App() {
                     Projects
                 </h2>
             )}
-            {location.pathname.includes('/Gallery') && (
-                <h2 className="headers" style={{ color: 'white' }}>
-                    Gallery
+            {location.pathname.includes('/Contact') && (
+                <h2 className="headers" style={{ color: 'black' }}>
+                    Contact Me
                 </h2>
             )}
             {location.pathname.includes('/About') && (
@@ -47,6 +49,7 @@ function App() {
                 />
                 <Route path="/Gallery" element={<Gallery />} />
                 <Route path="/About" element={<About />} />
+                <Route path="/Contact" element={<Contact />} />
             </Routes>
         </div>
     )

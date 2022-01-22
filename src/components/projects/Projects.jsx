@@ -15,7 +15,7 @@ function Projects(props) {
                 <FadeIn className="projects-wrapper">
                     {data.map((project, index) => (
                         <div className="card">
-                            <img src={project.photos[index]} alt="" />
+                            <img src={project.photos[0]} alt="" />
                             <div className="card-content">
                                 <h3>{project.title}</h3>
                                 <div className="tools-text">

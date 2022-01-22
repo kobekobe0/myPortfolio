@@ -8,7 +8,7 @@ import ReactDom from 'react-dom'
 
 function NavTab(props) {
     if (!props.isOpen) return null
-    const path = ['Home', 'Projects', 'Gallery', 'About']
+    const path = ['Home', 'Projects', 'Contact', 'About']
     return (
         <div className="tabs">
             <ul>

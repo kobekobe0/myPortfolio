@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { projectData } from './ProjectData'
 import { useLocation } from 'react-router-dom'
 import { Spinner } from 'react-bootstrap'
+import { AiOutlineGithub } from 'react-icons/ai'
 
 function ProjectPage(props) {
     const location = useLocation()
@@ -37,9 +38,15 @@ function ProjectPage(props) {
                 <div className="project-page-wrapper">
                     <div className="project-page-header">
                         <h2 className="project-page-title">{data.title}</h2>
-                        <a href={data.link} target="_blank">
-                            Visit
-                        </a>
+                        <div className="link-wrapper">
+                            <a href={data.link} target="_blank">
+                                Live link
+                            </a>
+                            <a style={{ color: 'gray' }}>|</a>
+                            <a href={data.github} target="_blank">
+                                <AiOutlineGithub size={30} color="white" />
+                            </a>
+                        </div>
                     </div>
 
                     <div className="project-page-description">

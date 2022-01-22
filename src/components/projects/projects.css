@@ -110,9 +110,21 @@
     color: rgb(66, 162, 252);
     font-size: 1.5rem;
     transition: all 0.2s;
+    align-items: center;
+    margin: 0;
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
 }
+
 .project-page-header a:hover {
     transform: scale(1.05);
+}
+
+.project-page .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project-page-description p {
@@ -140,6 +152,7 @@
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
+    align-items: center;
 }
 .project-page .project-page-carousel img {
     width: 300px;

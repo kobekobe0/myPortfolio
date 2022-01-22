@@ -53,7 +53,7 @@
     margin-bottom: 0;
 }
 .about .introduction p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: justify;
     line-height: 2.5rem;
     width: 80%;
@@ -170,13 +170,15 @@
     grid-gap: 5em;
     width: 100%;
     align-content: center;
+    justify-items: center;
 }
 
 .interest-card-wrapper .interests-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .interests img {
@@ -214,14 +216,19 @@
     .skills .other-icons {
         grid-template-columns: repeat(5, 1fr);
     }
+    .interest-card-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     .interest-card-wrapper .interests-card {
         display: flex;
         align-items: center;
         flex-direction: row;
-        max-width: 80%;
         align-self: center;
-        justify-self: center;
+        justify-content: center;
     }
     .interests img {
         width: 500px;
@@ -230,6 +237,7 @@
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        justify-content: center;
     }
     .interest-card-wrapper .interests-card h4 {
         text-align: center;

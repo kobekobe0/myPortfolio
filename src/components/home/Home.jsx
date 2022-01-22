@@ -4,7 +4,9 @@ import pf from '../../images/p4.jpg'
 import Typist from 'react-typist'
 import '../../../node_modules/react-typist/dist/Typist.css'
 import { BsFillCircleFill } from 'react-icons/bs'
+import { GoPlus } from 'react-icons/go'
 import FadeIn from 'react-fade-in'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -28,7 +30,13 @@ function Home() {
                             size={15}
                         />
                     </div>
-                    <img src={pf} alt="Kobe Brian Santos" />
+                    <div className="sub-img-hire">
+                        <img src={pf} alt="Kobe Brian Santos" />
+                        <Link to="/Contact">
+                            <GoPlus style={{ marginRight: '0.3em' }} /> Hire me
+                        </Link>
+                    </div>
+
                     <h1>Stay tuned.</h1>
                     <Typist>
                         <h2>

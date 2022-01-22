@@ -1,0 +1,102 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+}
+.contact h2 {
+    font-size: 2.5rem;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 6em;
+}
+.contact-wrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contact-wrapper textarea {
+    resize: none;
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.418);
+    padding: 2em;
+    margin-bottom: 6em;
+    height: 10rem;
+}
+
+.contact-wrapper input {
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.418);
+    padding: 2em;
+    margin-bottom: 2em;
+}
+.contact-wrapper input:last-child {
+    border: none;
+    width: 80%;
+    cursor: pointer;
+    padding: 2em;
+    background-color: rgba(63, 61, 86, 0.904);
+    color: white;
+    border-radius: 10px;
+}
+.contact-wrapper input:last-child:hover {
+    background-color: rgb(63, 61, 86);
+}
+@media (min-width: 600px) {
+    .contact-wrapper textarea {
+        resize: none;
+        border: none;
+        max-width: 50rem;
+        border-bottom: 1px solid rgba(90, 90, 90, 0.418);
+        padding: 2em;
+        margin-bottom: 6em;
+        height: 10rem;
+    }
+
+    .contact-wrapper input {
+        border: none;
+        max-width: 50rem;
+        border-bottom: 1px solid rgba(90, 90, 90, 0.418);
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+    .contact-wrapper input:last-child {
+        border: none;
+        max-width: 50rem;
+        cursor: pointer;
+        padding: 2em;
+        background-color: rgba(63, 61, 86, 0.904);
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .projects-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .project-page-carousel {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .project-page-tools .tools {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .project-page .project-page-carousel img {
+        width: 350px;
+    }
+}

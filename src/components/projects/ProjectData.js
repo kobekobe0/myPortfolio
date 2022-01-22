@@ -7,6 +7,34 @@ import css from '../../images/css.png'
 import html from '../../images/html.png'
 import react from '../../images/react.png'
 import firebase from '../../images/firebase.png'
+import w1 from '../../images/weather/1.png'
+import w2 from '../../images/weather/2.png'
+import w3 from '../../images/weather/3.png'
+import d1 from '../../images/dumps/1.png'
+import d2 from '../../images/dumps/2.png'
+import d3 from '../../images/dumps/3.png'
+import d4 from '../../images/dumps/4.png'
+import d5 from '../../images/dumps/5.png'
+import d6 from '../../images/dumps/6.png'
+import d7 from '../../images/dumps/7.png'
+import d8 from '../../images/dumps/8.png'
+import d9 from '../../images/dumps/9.png'
+import d10 from '../../images/dumps/10.png'
+import a1 from '../../images/anime/1.png'
+import a2 from '../../images/anime/2.png'
+import a3 from '../../images/anime/3.png'
+import a4 from '../../images/anime/4.png'
+import a5 from '../../images/anime/5.png'
+import a6 from '../../images/anime/6.png'
+import a7 from '../../images/anime/7.png'
+import l1 from '../../images/landing/1.png'
+import l2 from '../../images/landing/2.png'
+import l3 from '../../images/landing/3.png'
+import l4 from '../../images/landing/4.png'
+import l5 from '../../images/landing/5.png'
+import l6 from '../../images/landing/6.png'
+import l7 from '../../images/landing/7.png'
+import l8 from '../../images/landing/8.png'
 
 export const projectData = [
     {
@@ -17,7 +45,7 @@ export const projectData = [
         toolsText: ['HTML', 'CSS', 'Javascript', 'React', 'Firebase'],
         github: 'https://github.com/kobekobe0/dumps',
         link: 'https://dumps.herokuapp.com/',
-        photos: [mockup, mockup2, mockup3, mockup4],
+        photos: [d5, d2, d3, d4, d1, d6, d7, d8, d9, d10],
         id: '32dfsd13',
     },
     {
@@ -26,9 +54,9 @@ export const projectData = [
             'A simple anime watchlist app made using React and by utilizing local storage. You can search for an anime and add it to your watchlist. You can also remove an anime from your watchlist. Made possible using Jikan API.',
         tools: [html, css, javascript, react],
         toolsText: ['HTML', 'CSS', 'Javascript', 'React'],
-        github: 'https://github.com/kobekobe0/AnimeStorage_KobeSantos',
-        link: 'https://animestorage.netlify.app/',
-        photos: [mockup, mockup2, mockup3, mockup4],
+        github: 'https://github.com/kobekobe0/animestorage_repush',
+        link: 'https://animestorage.herokuapp.com/',
+        photos: [a1, a2, a3, a4, a5, a6, a7],
         id: 'aba12sdfw',
     },
     {
@@ -37,21 +65,21 @@ export const projectData = [
             'Check weather conditions for any city in the world. Made using React and by utilizing the OpenWeatherMap API.',
         tools: [html, css, javascript, react],
         toolsText: ['HTML', 'CSS', 'Javascript', 'React'],
-        github: 'https://github.com/kobekobe0/weather',
-        link: '',
-        photos: [mockup, mockup2, mockup3, mockup4],
+        github: 'https://github.com/kobekobe0/save-our-planet',
+        link: 'https://crazyweather.herokuapp.com/',
+        photos: [w1, w2, w3],
         id: 'fgdfgrw121',
     },
 
     {
         title: 'Landing Page',
         description:
-            'My very first React app. There is nothing much happenning here, just some page and images also used Firebase for the first time here. Literally, picked up React with very little knowledge of Javascript and do this the next two days. At first it was very challenging, took me 2 weeks to finish this very simple page lol, but it was very worth it. Learned a lot of basic stuff here. ',
+            'My very first React app. There is nothing much happenning here, just some page and images also used Firebase for the first time and learned how to integrate APIs here. Literally, picked up React with very little knowledge of Javascript and do this the next two days. At first it was very challenging, took me 2 weeks to finish this very simple page lol, but it was very worth it. Learned a lot of basic stuff here. ',
         tools: [html, css, javascript, react, firebase],
         toolsText: ['HTML', 'CSS', 'Javascript', 'React', 'Firebase'],
         github: 'https://github.com/kobekobe0/dumps',
-        link: 'https://dumps.herokuapp.com/',
-        photos: [mockup, mockup2, mockup3, mockup4],
+        link: 'https://gofundearth.herokuapp.com/',
+        photos: [l1, l2, l3, l4, l5, l6, l7, l8],
         id: 'gre75asd2',
     },
 ]

@@ -47,3 +47,18 @@
     font-weight: lighter;
     margin: 0;
 }
+
+.sub-img-hire {
+    display: flex;
+    align-items: center;
+}
+.sub-img-hire a {
+    color: white;
+    background-color: rgb(66, 110, 255);
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
