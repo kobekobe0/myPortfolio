@@ -208,7 +208,7 @@
 
 @media (min-width: 900px) {
     .skills .technical-skills .technical-skills-icons {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     .skills .stack-icons {
         grid-template-columns: repeat(2, 1fr);

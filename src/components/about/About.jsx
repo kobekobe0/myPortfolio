@@ -4,6 +4,7 @@ import face from '../../images/face.jpg'
 import face3 from '../../images/face3.jpg'
 import face2 from '../../images/ttt.jpg'
 import firebase from '../../images/firebase.png'
+import git from '../../images/gut.png'
 import html from '../../images/html.png'
 import css from '../../images/css.png'
 import js from '../../images/js.png'
@@ -67,6 +68,7 @@ function About() {
                                 <img src={react} alt="" />
                                 <img src={python} alt="" />
                                 <img src={firebase} alt="" />
+                                <img src={git} alt="" />
                             </div>
                         </div>
                         <div className="stack">
