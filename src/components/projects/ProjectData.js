@@ -35,6 +35,13 @@ import l5 from '../../images/landing/5.png'
 import l6 from '../../images/landing/6.png'
 import l7 from '../../images/landing/7.png'
 import l8 from '../../images/landing/8.png'
+import wordle1 from '../../images/wordle/wordle1.png'
+import wordle2 from '../../images/wordle/wordle2.png'
+import wordle3 from '../../images/wordle/wordle3.png'
+import wordle4 from '../../images/wordle/wordle4.png'
+import wordle5 from '../../images/wordle/wordle5.png'
+import wordle6 from '../../images/wordle/wordle6.png'
+import wordle7 from '../../images/wordle/wordle7.png'
 
 export const projectData = [
     {
@@ -47,6 +54,17 @@ export const projectData = [
         link: 'https://dumps.herokuapp.com/',
         photos: [d5, d2, d3, d4, d1, d6, d7, d8, d9, d10],
         id: '32dfsd13',
+    },
+    {
+        title: 'WordleRush',
+        description:
+            "A Wordle clone game. I made it a survival like game where every time you get a word, another word will be generated and you will get one point. There's also a leaderboard that shows top scorers. I made this app because I was inspired by Jedcal's vlog where he akso made a wordle game but you can create a word and make your friend guess it by sending link, I just took a different approach. ",
+        tools: [html, css, javascript, react, firebase],
+        toolsText: ['HTML', 'CSS', 'Javascript', 'React', 'Firebase'],
+        github: 'https://github.com/kobekobe0/wordle',
+        link: 'https://wordlerush.herokuapp.com/',
+        photos: [wordle1, wordle2, wordle3, wordle4, wordle5, wordle6, wordle7],
+        id: 'qv24saf13',
     },
     {
         title: 'Anime watchlist',
