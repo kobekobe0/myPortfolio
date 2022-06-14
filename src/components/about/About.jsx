@@ -10,6 +10,10 @@ import css from '../../images/css.png'
 import js from '../../images/js.png'
 import react from '../../images/react.png'
 import python from '../../images/python.png'
+import mongo from '../../images/mongo.png'
+import node from '../../images/node.png'
+import express from '../../images/express.png'
+import postman from '../../images/postman.png'
 import { RiTeamFill } from 'react-icons/ri'
 import { BsKeyboard } from 'react-icons/bs'
 import {
@@ -40,12 +44,11 @@ function About() {
                     <div className="introduction">
                         <h2>Hello,</h2>
                         <p>
-                            Kobe Brian Santos, 18 years old, a college student
-                            based in the Philippines. I'm an aspiring web
-                            developer and a self-taught programmer. I'm
-                            currently learning how to code using React.js and
-                            planning to pickup Python(Django) next for backend
-                            development or just go with Node.js.
+                            Kobe Brian Santos, 19-year-old college student based
+                            in the Philippines. I'm an aspiring web developer
+                            and a self-taught programmer. I'm currently learning
+                            full stack development, I mainly use MERN stack when
+                            developing web apps.
                             <br />
                             <br />
                             The thing I love most about coding is that there’s
@@ -66,16 +69,22 @@ function About() {
                                 <img src={css} alt="" />
                                 <img src={js} alt="" />
                                 <img src={react} alt="" />
+                                <img src={node} alt="" />
+                                <img src={express} alt="" />
                                 <img src={python} alt="" />
                                 <img src={firebase} alt="" />
+                                <img src={mongo} alt="" />
                                 <img src={git} alt="" />
+                                <img src={postman} alt="" />
                             </div>
                         </div>
                         <div className="stack">
                             <h3>Most used stack</h3>
                             <div className="stack-icons">
+                                <img src={mongo} alt="" />
+                                <img src={express} alt="" />
                                 <img src={react} alt="" />
-                                <img src={firebase} alt="" />
+                                <img src={node} alt="" />
                             </div>
                         </div>
                         <div className="other">
@@ -99,7 +108,7 @@ function About() {
                                 </div>
                                 <div className="type-speed">
                                     <BsKeyboard size={90} />
-                                    <h4>55wpm | 98% acc.</h4>
+                                    <h4>65wpm | 100% acc.</h4>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +237,7 @@ function About() {
                     color: 'white',
                 }}
             >
-                <p>© 2022 by Kobe Brian Santos. Created with React v18.</p>
+                <p>© 2022 by Kobe Brian Santos. Created with React.</p>
             </footer>
         </div>
     )

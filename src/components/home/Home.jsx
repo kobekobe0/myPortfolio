@@ -55,7 +55,7 @@ function Home() {
                             <span style={{ color: '#843EA5' }}>let</span>{' '}
                             <span style={{ color: '#9E3434' }}>age</span>{' '}
                             <span style={{ color: '#638CBD' }}>=</span>{' '}
-                            <span style={{ color: '#8F622C' }}>18</span>
+                            <span style={{ color: '#8F622C' }}>19</span>
                         </h2>
 
                         <h2>
@@ -65,7 +65,7 @@ function Home() {
                             <span style={{ color: '#4D9555' }}>'be happy'</span>
                             <Typist.Backspace count={10} delay={200} />
                             <span style={{ color: '#4D9555' }}>
-                                'become filthy rich'
+                                'figure it things out'
                             </span>
                         </h2>
                     </Typist>
