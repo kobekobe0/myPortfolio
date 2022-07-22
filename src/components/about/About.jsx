@@ -10,6 +10,10 @@ import css from '../../images/css.png'
 import js from '../../images/js.png'
 import react from '../../images/react.png'
 import python from '../../images/python.png'
+import apollo from '../../images/apollo.png'
+import graphql from '../../images/graphql.png'
+import tailwind from '../../images/tailwind.png'
+import apollo from '../../images/apollo.png'
 import mongo from '../../images/mongo.png'
 import node from '../../images/node.png'
 import express from '../../images/express.png'
@@ -65,12 +69,15 @@ function About() {
                         <div className="technical-skills">
                             <h3>Technical Skills</h3>
                             <div className="technical-skills-icons">
-                                <img src={html} alt="" />
-                                <img src={css} alt="" />
-                                <img src={js} alt="" />
-                                <img src={react} alt="" />
-                                <img src={node} alt="" />
-                                <img src={express} alt="" />
+                                <img src={js} alt="javascript" />
+                                <img src={react} alt="reactJS" />
+                                <img src={node} alt="nodeJS" />
+                                <img src={express} alt="expressJS" />
+                                <img src={graphql} alt="graphQL" />
+                                <img src={apollo} alt="apollo" />
+                                <img src={html} alt="html" />
+                                <img src={css} alt="css" />
+                                <img src={tailwind} alt="Tailwind css" />
                                 <img src={python} alt="" />
                                 <img src={firebase} alt="" />
                                 <img src={mongo} alt="" />
