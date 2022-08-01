@@ -79,6 +79,12 @@ function About() {
                                 <img src={html} alt="html" />
                                 <img src={css} alt="css" />
                                 <img src={tailwind} alt="Tailwind css" />
+                                <img src={html} alt="" />
+                                <img src={css} alt="" />
+                                <img src={js} alt="" />
+                                <img src={react} alt="" />
+                                <img src={node} alt="" />
+                                <img src={express} alt="" />
                                 <img src={python} alt="" />
                                 <img src={firebase} alt="" />
                                 <img src={mongo} alt="" />
