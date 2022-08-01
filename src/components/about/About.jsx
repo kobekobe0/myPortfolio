@@ -13,6 +13,7 @@ import python from '../../images/python.png'
 import apollo from '../../images/apollo.png'
 import graphql from '../../images/graphql.png'
 import tailwind from '../../images/tailwind.png'
+import socket from '../../images/socket.png'
 import mongo from '../../images/mongo.png'
 import node from '../../images/node.png'
 import express from '../../images/express.png'
@@ -74,6 +75,7 @@ function About() {
                                 <img src={express} alt="expressJS" />
                                 <img src={graphql} alt="graphQL" />
                                 <img src={apollo} alt="apollo" />
+                                <img src={socket} alt="socket io" />
                                 <img src={html} alt="html" />
                                 <img src={css} alt="css" />
                                 <img src={tailwind} alt="Tailwind css" />
