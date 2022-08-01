@@ -7,6 +7,12 @@ import css from '../../images/css.png'
 import html from '../../images/html.png'
 import react from '../../images/react.png'
 import firebase from '../../images/firebase.png'
+import mongo from '../../images/mongo.png'
+import node from '../../images/node.png'
+import express from '../../images/express.png'
+import socket from '../../images/socket.png'
+import graphql from '../../images/graphql.png'
+import tailwind from '../../images/tailwind.png'
 import w1 from '../../images/weather/1.png'
 import w2 from '../../images/weather/2.png'
 import w3 from '../../images/weather/3.png'
@@ -42,8 +48,55 @@ import wordle4 from '../../images/wordle/wordle4.png'
 import wordle5 from '../../images/wordle/wordle5.png'
 import wordle6 from '../../images/wordle/wordle6.png'
 import wordle7 from '../../images/wordle/wordle7.png'
+import tab1 from '../../images/tabibito/1.png'
+import tab2 from '../../images/tabibito/2.png'
+import tab3 from '../../images/tabibito/3.png'
+import tab4 from '../../images/tabibito/4.png'
+import tab5 from '../../images/tabibito/5.png'
+import tab6 from '../../images/tabibito/6.png'
+import tab7 from '../../images/tabibito/7.png'
+import tab8 from '../../images/tabibito/8.png'
+import tab9 from '../../images/tabibito/9.png'
+import tab10 from '../../images/tabibito/10.png'
+import tab11 from '../../images/tabibito/11.png'
+import tab12 from '../../images/tabibito/12.png'
+import tab13 from '../../images/tabibito/13.png'
+import tab14 from '../../images/tabibito/14.png'
+import tab15 from '../../images/tabibito/15.png'
+import twit1 from '../../images/twitter/1.png'
+import twit2 from '../../images/twitter/2.png'
+import twit3 from '../../images/twitter/3.png'
+import twit4 from '../../images/twitter/4.png'
+import twit5 from '../../images/twitter/5.png'
 
 export const projectData = [
+    {
+        title: 'Tabibito',
+        description:
+            'A travel log app where you can share your adventures with everyone. This is my first fullstack MERN app. I focused more at the backend in this project since this is also the first project where I built the backend by myself. Truly a great experience, I learned a lot building this project.',
+        tools: [mongo, express, react, node, socket],
+        toolsText: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io'],
+        github: 'https://github.com/kobekobe0/tabibito',
+        link: 'https://tabibi-to.herokuapp.com',
+        photos: [
+            tab1,
+            tab2,
+            tab3,
+            tab4,
+            tab5,
+            tab6,
+            tab7,
+            tab8,
+            tab9,
+            tab10,
+            tab11,
+            tab12,
+            tab13,
+            tab14,
+            tab15,
+        ],
+        id: 'kjzxncoiawd',
+    },
     {
         title: 'Social Media App',
         description:
@@ -65,6 +118,24 @@ export const projectData = [
         link: 'https://wordlerush.herokuapp.com/',
         photos: [wordle1, wordle2, wordle3, wordle4, wordle5, wordle6, wordle7],
         id: 'qv24saf13',
+    },
+    {
+        title: 'Twitter, but useless',
+        description:
+            'A simple web app where you an post anything you are feeling. I built this to see how grapql api works, nothing special to see. Also tried using Tailwind for the first time and I tell you, I won`t go back using vanilla CSS anymore(for my personal projects), LOL.',
+        tools: [mongo, express, react, node, tailwind, graphql],
+        toolsText: [
+            'MongoDB',
+            'Express',
+            'React',
+            'Node.js',
+            'Tailwind',
+            'GraphQL',
+        ],
+        github: 'https://github.com/kobekobe0/MERNG',
+        link: 'https://github.com/kobekobe0/MERNG',
+        photos: [twit1, twit2, twit3, twit4, twit5],
+        id: 'qzxcasdw2a',
     },
     {
         title: 'Anime watchlist',
